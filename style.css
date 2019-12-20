@@ -1,0 +1,173 @@
+body{
+    background-color: azure;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+
+.flex1{
+    align-items: flex-end;
+ 
+    display: flex;
+    flex-flow: row nowrap;
+    width: 50%;
+    justify-content: flex-start;
+    
+    
+}
+
+
+
+.flex1 h1{
+    font-size: 70px;
+    margin-bottom: 0px;
+    color: crimson;
+
+}
+
+.flex1 h2{
+    font-size: 35px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    color: LightSlateGray;
+
+}
+
+
+.flex2{
+    /* box-sizing: border-box; */
+
+    /* flex: 1; */
+    width:75%;
+    height: 50px;
+    display: flex;
+    background-color: black;
+    
+    /* display: table-cell; */
+    /* vertical-align: middle; */
+    /* align-items: stretch; */
+    /* vertical-align: middle; */
+    /* justify-content: center; */
+    /* vertical-align: middle; */
+}
+
+.flex2 nav{
+   
+    /* display: block; */
+    /* align-items: center;
+    align-content: center;
+    justify-content: center; */
+}
+.flex2 a{
+   
+    text-align: center;
+    /* align-content: center; */
+        /* margin: 0; */
+        color: white;
+        padding-top: 15px;
+        
+       
+        font-size: 20px;
+        flex-grow: 1;
+        
+        text-decoration: none;
+        border-right: 1px solid yellow;
+               
+
+}
+.flex2 a:last-child{
+    border-right: none;
+
+}
+.mainContent{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+            
+}
+
+.mainContent aside{
+            display: flex;
+            flex-direction: column;
+            margin-left: 100px;
+
+}
+
+
+.aDate1{
+    color: lightslategray;
+
+}
+
+.aDate2{
+    color: lightslategray;
+
+}
+
+
+
+.mainContent article p:first-letter{
+    float: Left;
+    font-size : 50px;
+    margin-bottom: -5px;
+    margin-right: 5px;
+    color: LightGrey;
+}
+
+
+.mainContent article p::after{
+        font-size: 20px;
+        margin-left: 60%;
+        margin-top: 50px;
+        content: "contiune...";
+        display: block;
+        color: mediumaquamarine;
+
+}
+
+
+.asideSec1 {
+
+        border-bottom: 1px solid salmon;
+
+}
+
+
+.asideSec2 {
+        height: 400px;
+        border-bottom: 1px solid salmon;
+
+}
+
+.asideSec3 h3{
+        color: slategray;
+
+
+}
+
+.asideSec3 ul a{
+    color: maroon;
+    text-decoration: none;
+
+
+}
+
+footer ul{
+        margin-right: 100px;
+        padding-inline-start: 0px;
+      
+}
+footer ul a{
+    color: lightcoral;
+    text-decoration: none;
+    border-right: 1px solid grey;
+    padding-inline-end: 5px;
+  
+}
+
+.sitemapFooterLastItem{
+    border-right: none;
+  
+}
